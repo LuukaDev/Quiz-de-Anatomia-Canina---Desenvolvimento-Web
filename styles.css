@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6ecef;
+    margin: 0;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+#start-screen {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+    width: 600px;
+    box-sizing: border-box;
+}
+
+#start-screen h1 {
+    font-size: 6vw;
+    color: #333;
+}
+
+#start-screen p {
+    font-size: 4vw;
+    color: #444;
+    margin: 10px 0;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 4vw;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#start-button:hover {
+    background-color: #45a049;
+}
+
+#quiz-container {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.bone-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #b0b0b0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.bone-image.correct {
+    transform: scale(1.15);
+    border-color: #28a745;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+}
+
+.bone-image.incorrect {
+    border-color: #dc3545;
+    box-shadow: 0 0 8px rgba(220, 53, 69, 0.5);
+}
+
+#bone-name {
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+#score, #lives, #timer {
+    font-size: 4vw;
+    margin: 8px 0;
+    color: #444;
+}
+
+#game-over {
+    display: none;
+    font-size: 5vw;
+    color: #dc3545;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#restart, .consult-button {
+    display: none;
+    padding: 8px 16px;
+    font-size: 4vw;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: background-color 0.2s ease;
+}
+
+.consult-button {
+    display: inline-block;
+}
+
+#restart:hover, .consult-button:hover {
+    background-color: #45a049;
+}
+
+#feedback {
+    font-size: 4.5vw;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #28a745;
+}
+
+@media screen and (max-width: 600px) {
+    #start-screen {
+        padding: 15px;
+        width: 95%;
+    }
+
+    #start-screen h1 {
+        font-size: 7vw;
+    }
+
+    #start-screen p {
+        font-size: 5vw;
+    }
+
+    #start-button {
+        font-size: 5vw;
+        padding: 12px 24px;
+    }
+
+    #quiz-container {
+        padding: 10px;
+        width: 95%;
+    }
+
+    #images {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .bone-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    #bone-name {
+        font-size: 6vw;
+    }
+
+    #score, #lives, #timer {
+        font-size: 5vw;
+    }
+
+    #game-over {
+        font-size: 6vw;
+    }
+
+    #restart, .consult-button {
+        font-size: 5vw;
+        padding: 10px 20px;
+    }
+
+    #feedback {
+        font-size: 5.5vw;
+    }
+}

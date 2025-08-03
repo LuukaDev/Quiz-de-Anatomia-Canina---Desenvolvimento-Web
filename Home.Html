@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Anatomia Canina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Bem-vindo ao Quiz de Anatomia Canina!</h1>
+        <p>Teste seus conhecimentos sobre os ossos dos cães. Clique em "Iniciar Quiz" para começar!
+            Esse Test Funciona melhor em Dispositivos Moveis (Celulares)
+        </p>
+        <button id="start-button">Iniciar Quiz</button>
+    </div>
+    <div id="quiz-container" style="display: none;">
+        <h1>Quiz de Anatomia Canina</h1>
+        <div id="score">Pontuação: 0</div>
+        <div id="lives">Vidas: ❤️❤️❤️</div>
+        <div id="timer">Tempo: 15s</div>
+        <div id="bone-name"></div>
+        <div id="images"></div>
+        <div id="feedback"></div>
+        <div id="consult">
+            <a href="https://www.imaios.com/br/vet-anatomy/cao/cao-anatomia-geral?mic=dog-general-anatomy-illustrations&afi=5&is=1862&il=br&l=pt_PT&isf=true&ul=true">
+                <button class="consult-button">Consultar</button>
+            </a>
+        </div>
+        <div id="game-over">Fim de Jogo! Sua pontuação final: <span id="final-score"></span></div>
+        <button id="restart">Jogar Novamente</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
