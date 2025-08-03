@@ -3,6 +3,9 @@
 Bem-vindo ao **Quiz de Anatomia Canina**!  
 Este é um jogo interativo desenvolvido para testar e reforçar seus conhecimentos sobre os **ossos de cães** de forma divertida e educativa. Ideal para estudantes, profissionais de veterinária ou curiosos da área! 🦴🎓
 
+<img width="351" height="623" alt="Quiz" src="https://github.com/user-attachments/assets/0a9c0022-5714-4344-bcd7-a97a36ef936e" />
+
+
 ---
 
 ## 🎮 Funcionalidades
