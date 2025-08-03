@@ -1,6 +1,4 @@
-# Quiz-de-Anatomia-Canina---Desenvolvimento-Web
-
-# 🐶 Quiz de Anatomia Canina
+# 🐶 Quiz-de-Anatomia-Canina---Desenvolvimento-Web
 
 Bem-vindo ao **Quiz de Anatomia Canina**!  
 Este é um jogo interativo desenvolvido para testar e reforçar seus conhecimentos sobre os **ossos de cães** de forma divertida e educativa. Ideal para estudantes, profissionais de veterinária ou curiosos da área! 🦴🎓
