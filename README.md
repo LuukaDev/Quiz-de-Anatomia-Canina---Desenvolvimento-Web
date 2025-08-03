@@ -42,12 +42,13 @@ Este é um jogo interativo desenvolvido para testar e reforçar seus conheciment
 
 ---
 
+Feito com ❤️ para ajudar no aprendizado da anatomia canina!
 Jogo em Atualização 
 https://quizanatomiacanina.netlify.app/
 
 ---
 
-Feito com ❤️ para ajudar no aprendizado da anatomia canina!
+
 
 
 
